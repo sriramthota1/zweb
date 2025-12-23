@@ -904,7 +904,8 @@ const cvFrame = document.getElementById('cvFrame');
 if (viewCvBtn) {
     viewCvBtn.addEventListener('click', (e) => {
         e.preventDefault();
-        cvFrame.src = 'CV-Zafar_Umin_Update11-11-25.pdf#toolbar=0&navpanes=0&scrollbar=0';
+        
+        cvFrame.src = 'CV-Zafar_Umin_Update11-11-25.pdf#toolbar=0&navpanes=0&scrollbar=0&view=FitH';
         cvModal.classList.add('active');
         document.body.style.overflow = 'hidden';
     });
