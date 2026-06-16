@@ -246,7 +246,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url('Background_2.png');
+    background-image: url('BAckground_2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -370,7 +370,8 @@ body {
 }
 
 .hero-stats {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: var(--space-lg);
     margin-bottom: var(--space-lg);
 }
@@ -1616,7 +1617,7 @@ section {
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-base);
     overflow: hidden;
-    height: 400px;
+    height: 975px;
     display: flex;
     flex-direction: column;
     grid-column: span 2;
@@ -1826,7 +1827,7 @@ section {
 }
 
 .awards-list::-webkit-scrollbar {
-    width: 12px;
+    width: 7px;
 }
 
 .awards-list::-webkit-scrollbar-track {
@@ -4364,17 +4365,14 @@ body.loaded {
     }
     
     .stat {
-        background: rgba(255, 255, 255, 0.8);
-        padding: 1.2rem 1rem;
-        border-radius: 16px;
-        border: 2px solid rgba(0, 212, 170, 0.15);
+        background: transparent;
+        padding: 0.5rem;
+        border: none;
         transition: all 0.3s ease;
     }
     
     .stat:hover {
-        transform: translateY(-5px);
-        border-color: var(--primary);
-        box-shadow: 0 10px 25px rgba(0, 212, 170, 0.2);
+        transform: translateY(-2px);
     }
     
     .stat-number {
@@ -4467,12 +4465,15 @@ body.loaded {
     .hero {
         min-height: auto !important;
         padding: 80px 0 0 0 !important;
+        width: 100% !important;
     }
     
     .hero-container {
         grid-template-columns: 1fr !important;
-        padding: 0 !important;
+        padding: 0 1rem !important;
         gap: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
     }
     
     .hero-content {
@@ -4482,9 +4483,9 @@ body.loaded {
         gap: 1.5rem !important;
         border-right: none !important;
         border-radius: 20px !important;
-        margin: 0 1rem 0 1rem !important;
+        margin: 0 !important;
         height: auto !important;
-        width: calc(100% - 2rem) !important;
+        width: 100% !important;
         max-width: 100% !important;
     }
     
@@ -4554,10 +4555,9 @@ body.loaded {
     }
     
     .stat {
-        background: rgba(255, 255, 255, 0.9) !important;
-        padding: 1rem 0.75rem !important;
-        border-radius: 12px !important;
-        border: 2px solid rgba(0, 212, 170, 0.2) !important;
+        background: transparent !important;
+        padding: 0.5rem !important;
+        border: none !important;
     }
     
     .stat-number {

@@ -12,154 +12,221 @@ const websiteContent = {
     // ========================================
     publications: [
         {
-            year: "2023",
-            title: "Comparison of heating modules for suspension-type multipoint temperature variability management in smart greenhouses",
-            journal: "Elsevier",
-            date: "July 31, 2023",
-            topics: ["Smart Greenhouses", "Climate Control"],
-            link: "#",
+            year: "2026",
+            title: "Multiclass Citrus Leaf Disease Inspection with Region Classification and Hyperspectral Imagery",
+            journal: "Journal of the ASABE",
+            date: "April 14, 2026",
+            topics: ["Citrus", "Citrus greening", "CNN", "Hyperspectral imagery"],
+            link: "https://doi.org/10.13031/ja.16525",
             pdfLink: "#",
-            image: "https://via.placeholder.com/400x400/667eea/ffffff?text=Publication+1"
+            image: "MC_ASABE.jpg"
+        },
+        
+        {
+            year: "2026",
+            title: "RFID—What's in it for me?",
+            journal: "Crop Protection Network",
+            date: "February 10, 2026",
+            topics: ["RFID", "Cotton engineering", "Cotton Moisture", "Wrap Damage"],
+            link: "https://doi.org/10.31274/cpn-20260227-0",
+            pdfLink: "#",
+            image: "rfid.jpg"
+        },
+        
+        
+        {
+            year: "2026",
+            title: "Detecting Escherichia coli on Conventional Food Processing Surfaces Using UV-C Fluorescence Imaging and Deep Learning",
+            journal: "Applied Sciences",
+            date: "January 17, 2026",
+            topics: ["E. Coli", "Food safety", "Fluorescence imaging", "Deep learning","YOLO11", "Eigen-CAM"],
+            link: "https://doi.org/10.3390/app16020968",
+            pdfLink: "#",
+            image: "Pub_2026_1.jpg"
+        },
+        
+        {
+            year: "2025",
+            title: "Detecting Escherichia coli Contamination on Plant Leaf Surfaces Using UV-C Fluorescence Imaging and Deep Learning",
+            journal: "Plants",
+            date: "October 31, 2025",
+            topics: ["E. Coli", "Food safety", "Fluorescence imaging", "Deep learning","YOLO11", "Eigen-CAM"],
+            link: "https://doi.org/10.3390/plants14213352",
+            pdfLink: "#",
+            image: "Pub_l.jpg"
+        },
+        
+        {
+            year: "2025",
+            title: "Cover Damage Detection in Round Cotton Modules using Convolutional Neural Networks (CNNs)",
+            journal: "Computers and Electronics in Agriculture",
+            date: "September 25, 2025",
+            topics: ["Round Cotton Module", "Plastic Contamination", "YOLO", "CNN Optimization", "RT-DETR"],
+            link: "https://doi.org/10.1016/j.compag.2025.111023",
+            pdfLink: "#",
+            image: "Pub2.png"
+        },
+        
+        {
+            year: "2025",
+            title: "A Robust Framework Combining Hyperspectral Imaging and Machine Learning for Assessing Sudden Death Syndrome (SDS) Severity in Soybean Foliage",
+            journal: "Journal of Biosystems Engineering",
+            date: "October 1, 2025",
+            topics: ["Disease detection", "Hyperspectral Imaging", "SDS", "Soybean", "Supervised Classification", "Unsupervised Classification", "YOLO11"],
+            link: "https://doi.org/10.1007/s42853-025-00278-9",
+            pdfLink: "#",
+            image: "Pub_3.jpg"
+        },
+        
+        {
+            year: "2025",
+            title: "Spatial and Temporal Variability of Environmental Variables in Chinese Solar Greenhouses in the Summer Season",
+            journal: "Horticulture",
+            date: "April 15, 2025",
+            topics: ["Solar Greenhouse", "Environment Management", "Microclimate", "Precision Agriculture", "Variability Analysis"],
+            link: "https://doi.org/10.3390/horticulturae11040421",
+            pdfLink: "#",
+            image: "Pub_4.jpg"
         },
         {
             year: "2023",
             title: "Comparison of heating modules for suspension-type multipoint temperature variability management in smart greenhouses",
-            journal: "Elsevier",
+            journal: "Smart Agricultural Technology",
             date: "July 31, 2023",
-            topics: ["Smart Greenhouses", "Climate Control"],
-            link: "#",
+            topics: ["Greenhouse", "Heating Module", "Smart Agriculture", "Temperature Management", "Wireless Sensor Network"],
+            link: "https://doi.org/10.1016/j.atech.2023.100296",
             pdfLink: "#",
-            image: "pub1.jpg"
+            image: "Pub_5.jpg"
+        },
+        {
+            year: "2023",
+            title: "Spatial, Temporal, and Vertical Variability of Ambient Environmental Conditions in Chinese Solar Greenhouses during Winter",
+            journal: "Applied Sciences",
+            date: "August 30, 2023",
+            topics: ["Smart Agriculture", "Chinese Solar Greenhouse", "Environmental Conditions", "Wireless Sensor Network", "Microclimate Characteristics", "Variability"],
+            link: "https://doi.org/10.3390/app13179835",
+            pdfLink: "#",
+            image: "Pub_6.jpg"
         },
         {
             year: "2023",
             title: "Evaluation of a 0.7 kW Suspension-Type Dehumidifier Module in a Closed Chamber and in a Small Greenhouse",
-            journal: "MDPI",
+            journal: "Sustainability",
             date: "March 15, 2023",
-            topics: ["Dehumidification", "IoT Systems"],
-            link: "#",
+            topics: ["Controlled Environment Agriculture", "Dehumidification", "Humidity Variability", "Suspension-type Dehumidifier", "Wireless Sensor Network"],
+            link: "https://doi.org/10.3390/su15065236",
             pdfLink: "#",
-            image: "/Users/sriramthota/Downloads/Zafar website/A&M.png"
+            image: "Pub_7.jpg"
         },
         {
             year: "2022",
             title: "Theoretical transmission analysis to optimize Gearbox for a 2.6 kW automatic pepper transplanter",
-            journal: "Page Press",
-            date: "May 22, 2022",
-            topics: ["Agricultural Robotics", "Optimization"],
-            link: "#",
+            journal: "Journal of Agricultural Engineering",
+            date: "November 3, 2022",
+            topics: ["Agricultural Machinery", "Gearbox", "Pepper Transplanter", "Power Transmission", "Spur Gear"],
+            link: "https://doi.org/10.4081/jae.2022.1254",
             pdfLink: "#",
-            image: "/Users/sriramthota/Downloads/Zafar website/A&M.png"
+            image: "Pub_8.jpg"
         },
         {
             year: "2022",
             title: "Theoretical Overturning Analysis of a 2.6-kW Two-Row Walking-Type Automatic Pepper Transplanter",
-            journal: "Springer",
+            journal: "Journal of Biosystems Engineering",
             date: "February 17, 2022",
-            topics: ["Mechanical Analysis", "Agricultural Machinery"],
-            link: "#",
+            topics: ["Field machinery", "Overturning Analysis", "Pepper",  "Stability", "Transplanter"],
+            link: "https://doi.org/10.1007/s42853-022-00129-x",
             pdfLink: "#",
-            image: "pub4.jpg"
-        },
-        {
-            year: "2022",
-            title: "A CNN-Based Approach to Detect Cover Damage of Round Cotton Modules",
-            journal: "National Cotton Council Beltwide Cotton Conference",
-            date: "January 6, 2022",
-            topics: ["Deep Learning", "Computer Vision"],
-            link: "#",
-            pdfLink: "#",
-            image: "pub5.jpg"
+            image: "Pub_9.jpg"
         },
         {
             year: "2021",
             title: "Evaluation of pepper seedling growth according to the growing period and tray for automatic transplanting",
-            journal: "KJOAS",
-            date: "November 18, 2021",
-            topics: ["Plant Growth", "Automation"],
-            link: "#",
+            journal: "Korean Journal of Agricultural Science",
+            date: "December 1, 2021",
+            topics: ["Growing Period", "Pepper", "Seedling Growth", "Seedling Tray"],
+            link: "https://doi.org/10.7744/kjoas.20210080",
             pdfLink: "#",
-            image: "pub6.jpg"
+            image: "Pub_10.jpg"
         },
         {
             year: "2021",
             title: "Kinematic analysis of a hopper-type dibbling mechanism for a 2.6 kW two-row pepper transplanter",
-            journal: "Springer",
+            journal: "Journal of Mechanical Science and Technology",
             date: "May 22, 2021",
-            topics: ["Kinematics", "Agricultural Machinery"],
-            link: "#",
+            topics: ["Agricultural Machinery", "Dibbling Mechanism", "Kinematic Analysis", "Pepper", "Transplanter"],
+            link: "https://doi.org/10.1007/s12206-021-0531-2",
             pdfLink: "#",
-            image: "pub7.jpg"
-        },
-        {
-            year: "2021",
-            title: "Working speed analysis of the gear-driven dibbling mechanism of a 2.6 kW walking-type automatic pepper transplanter",
-            journal: "MDPI",
-            date: "January 22, 2021",
-            topics: ["Speed Analysis", "Precision Agriculture"],
-            link: "#",
-            pdfLink: "#",
-            image: "pub8.jpg"
+            image: "Pub_11.jpg"
         },
         {
             year: "2021",
             title: "Stress and fatigue analysis of picking device gears for a 2.6 kW automatic pepper transplanter",
-            journal: "MDPI",
-            date: "January 7, 2021",
-            topics: ["Stress Analysis", "Mechanical Engineering"],
-            link: "#",
+            journal: "Applied Sciences",
+            date: "March 3, 2021",
+            topics: ["Agricultural Machinery", "Pepper Transplanting", "Seedling Picking Mechanism", "Structural Analysis",  "Gear Mechanism", "Stress and Fatigue"],
+            link: "https://doi.org/10.3390/app11052241",
             pdfLink: "#",
-            image: "pub9.jpg"
+            image: "Pub_12.jpg"
         },
         {
             year: "2021",
-            title: "Round Modules: Handling Logistics and Cover Damage, 2nd Year",
-            journal: "Proceedings of the 2021 Beltwide Cotton Conference",
-            date: "January 7, 2021",
-            topics: ["Logistics", "Cotton Industry"],
-            link: "#",
+            title: "Working speed analysis of the gear-driven dibbling mechanism of a 2.6 kW walking-type automatic pepper transplanter",
+            journal: "Machines",
+            date: "January 11, 2021",
+            topics: ["Field Machinery", "Transplanter", "Pepper", "Dibbling Mechanism", "Working Speed Analysis"],
+            link: "https://doi.org/10.3390/machines9010006",
             pdfLink: "#",
-            image: "pub10.jpg"
+            image: "Pub_13.jpg"
         },
         {
             year: "2020",
             title: "Kinematic analysis of a clamp-type picking device for an automatic pepper transplanter",
-            journal: "MDPI",
-            date: "December 24, 2020",
-            topics: ["Kinematics", "Automation"],
-            link: "#",
+            journal: "Agriculture",
+            date: "December 12, 2020",
+            topics: ["Agricultural Machinery", "Pepper", "Transplanter", "Picking Device", "Kinematic Analysis"],
+            link: "https://doi.org/10.3390/agriculture10120627",
             pdfLink: "#",
-            image: "pub11.jpg"
+            image: "Pub_14.jpg"
         },
         {
             year: "2020",
-            title: "Performance evaluation of a suspension-type dehumidifier with a heating module for smart greenhouses",
-            journal: "Springer",
-            date: "September 24, 2020",
-            topics: ["Smart Agriculture", "Climate Control"],
-            link: "#",
+            title: "Analysis of overturning and vibration during field operation of a tractor-mounted 4-row radish collector toward ensuring user safety",
+            journal: "Machines",
+            date: "November 19, 2020",
+            topics: ["Radish", "Collector", "Lateral Stability", "Vibration", "User Safety"],
+            link: "https://doi.org/10.3390/machines8040077",
             pdfLink: "#",
-            image: "pub12.jpg"
+            image: "Pub_15.jpg"
+        },
+        {
+            year: "2020",
+            title: "Performance Evaluation of a Suspension-Type Dehumidifier with a Heating Module for Smart Greenhouses",
+            journal: "Journal of Biosystems Engineering",
+            date: "July 07, 2020",
+            topics: ["Smart agriculture", "Greenhouse", "Dehumidifier", "Heater", "Remote management"],
+            link: "https://doi.org/10.1007/s42853-020-00055-w",
+            pdfLink: "#",
+            image: "Pub_16.jpg"
         },
         {
             year: "2019",
             title: "Monitoring the Operating Status of an Automatic Harmful Fly Collector for Smart Greenhouses",
-            journal: "Springer",
-            date: "December 5, 2019",
-            topics: ["IoT Monitoring", "Pest Control"],
-            link: "#",
+            journal: "Journal of Biosystems Engineering",
+            date: "December 05, 2019",
+            topics: ["Protected Crop Production", "Smart Greenhouse", "Harmful Flies", "Remote Monitoring", "Operating Status"],
+            link: "https://doi.org/10.1007/s42853-019-00036-8",
             pdfLink: "#",
-            image: "pub13.jpg"
+            image: "Pub_17.jpg"
         },
         {
             year: "2019",
             title: "Performance Evaluation of Trenchless Subsurface Drainage Piping Machine",
-            journal: "Springer",
+            journal: "Journal of Biosystems Engineering",
             date: "November 28, 2019",
-            topics: ["Agricultural Machinery", "Drainage Systems"],
-            link: "#",
+            topics: ["Irrigation", "Subsurface Drainage", "Trenchless Piping Machine", "Depth Uniformity", "Pulling Force"],
+            link: "https://doi.org/10.1007/s42853-019-00032-y",
             pdfLink: "#",
-            image: "pub14.jpg"
+            image: "Pub_18.jpg"
         },
     ],
 
@@ -170,82 +237,82 @@ const websiteContent = {
         {
             title: "Embedded AI for Food Safety & Plant Health",
             description: "Compact optical sensing systems for food safety and plant health applications",
-            funding: "USDA ARS",
+            funding: "Funded by USDA ARS",
             years: "2024-Present",
             category: "crop",
             icon: "fa-microscope",
             color: "purple",
-            image: "zafar1.png"
+            image: "Project-1.png"
         },
         {
             title: "Autonomous Robotic Platform for CEA",
             description: "Electric powered 2-wheel drive articulated platform for controlled environment agriculture",
-            funding: "USDA ARS",
+            funding: "Funded by USDA ARS",
             years: "2024-Present",
             category: "crop",
             icon: "fa-robot",
             color: "green",
-            image: "project2.jpg"
+            image: "Project-2.png"
         },
         {
             title: "Cotton Module Handling Logistics",
             description: "Optimization and cover damage reduction for cotton module handling",
-            funding: "Cotton Incorporated",
+            funding: "Funded by Cotton Incorporated",
             years: "2020-2024",
             category: "soil",
             icon: "fa-leaf",
             color: "pink",
-            image: "project3.jpg"
+            image: "Project-3.png"
         },
         {
             title: "High-Tech Upland Farming Machinery",
             description: "Development of advanced machinery to improve mechanization on upland-field farming",
-            funding: "MAFRA, South Korea",
+            funding: "Funded by MAFRA, South Korea",
             years: "2017-2019",
             category: "climate",
             icon: "fa-tractor",
             color: "blue",
-            image: "project4.jpg"
+            image: "Project-4.png"
         },
         {
             title: "Smart Greenhouse ICT Equipment",
             description: "User comfort improvement technologies for smart greenhouse ICT equipment",
-            funding: "Rural Development Administration, South Korea",
+            funding: "Funded by RDA, South Korea",
             years: "2017-2019",
             category: "climate",
             icon: "fa-warehouse",
             color: "orange",
-            image: "project5.jpg"
+            image: "Project-5.png"
         },
         {
             title: "IoT-Based Smart Farm Monitoring",
             description: "Remote monitoring sensor and control interface for agricultural and livestock production",
-            funding: "MAFRA, South Korea",
+            funding: "Funded by MAFRA, South Korea",
             years: "2017-2019",
             category: "climate",
             icon: "fa-chart-line",
             color: "blue",
-            image: "project6.jpg"
+            image: "Project-6.png"
         },
         {
             title: "Smart Evaporative Cooling System",
             description: "Low-cost smart evaporative cooling system for storing fresh tomatoes",
-            funding: "HSTU Research Fund, Bangladesh",
+            funding: "Funded by HSTU Research Fund, Bangladesh",
             years: "2015-2017",
             category: "crop",
             icon: "fa-temperature-low",
             color: "purple",
-            image: "project7.jpg"
+            image: "Project-7.png"
         },
         {
             title: "Farm Safety Risk Assessment",
             description: "Investigation of characteristics and risk factors associated with fatal farm and agricultural injuries in Bangladesh",
-            funding: "UGC Bangladesh",
+            funding: "Funded by UGC, Bangladesh",
             years: "2016-2017",
             category: "soil",
             icon: "fa-exclamation-triangle",
             color: "pink",
-            image: "project8.jpg"
+            image: "Project-8.png"
         },
     ],
 
@@ -288,7 +355,7 @@ const websiteContent = {
             logo: "UF.png"
         },
         {
-            title: "Graduate Research Assistant",
+            title: "Graduate Assistant (Research & Teaching)",
             company: "Texas A&M University",
             years: "2020-2024",
             badge: "PhD",
@@ -307,68 +374,71 @@ const websiteContent = {
     // SKILLS
     // ========================================
     skills: {
-        "Programming": ["Python", "MATLAB", "R", "C++"],
-        "AI/ML Frameworks": ["TensorFlow", "PyTorch", "Keras", "OpenCV"],
-        "Tools & Software": ["ArcGIS", "ENVI", "Git", "Docker"],
+        "Programming": ["Python","C++", "R", "MATLAB", "LabView"],
+        "AI/ML Frameworks": ["TensorFlow","OpenCV", "PyTorch", "Keras"],
+        "Tools & Software": ["ArcGIS","SolidWorks","Catia","Ansys","RecurDyn","Vercel","ThingSpeak", "Proteus","KISSsoft","Shurfer", "GS+"],
+        "Other": ["Image Processing","Signal Processing","Micro Controller","WSN","AG-IoT", "RFID","GNSS"],
     },
 
     // ========================================
     // LINKEDIN POSTS
     // ========================================
     linkedinPosts: [
-        {
-            name: "Dr. Zafar Iqbal",
+
+         {
+            name: "Zafar Iqbal",
             position: "Postdoctoral Associate @ University of Florida",
-            time: "1 month ago",
+            time: "5 days ago",
+            content: "Our research article, \"Detecting Escherichia coli on Conventional Food Processing Surfaces Using UV-C Fluorescence Imaging and Deep Learning\" has just been published! This study introduces a second-generation imaging device combined with deep learning.",
+            likes: 25,
+            comments: 4,
+            avatar: "headshot-2.png"
+        },
+        
+        {
+            name: "Zafar Iqbal",
+            position: "Postdoctoral Associate @ University of Florida",
+            time: "3 months ago",
             content: "Happy to share our new work just published! In this study, \"Detecting Escherichia coli Contamination on Plant Leaf Surfaces Using UV-C Fluorescence Imaging and Deep Learning,\" we demonstrated how combining fluorescence imaging and AI enables rapid and accurate detection of E. coli on leafy produce.",
             likes: 30,
             comments: 1,
-            avatar: "Zafar1.png"
+            avatar: "headshot-2.png"
         },
         {
-            name: "Dr. Zafar Iqbal",
+            name: "Zafar Iqbal",
             position: "Postdoctoral Associate @ University of Florida",
-            time: "2 months ago",
+            time: "4 months ago",
             content: "Happy to share another new publication: \"A Robust Framework Combining Hyperspectral Imaging and Machine Learning for Assessing Sudden Death Syndrome (SDS) Severity in Soybean Foliage\". We fused hyperspectral imaging with machine learning to detect SDS and classify intra-leaf pixels based on severity levels.",
             likes: 42,
             comments: 8,
-            avatar: "Zafar1.png"
+            avatar: "headshot-2.png"
         },
         {
-            name: "Dr. Zafar Iqbal",
+            name: "Zafar Iqbal",
             position: "Postdoctoral Associate @ University of Florida",
-            time: "2 months ago",
+            time: "4 months ago",
             content: "Excited to share our newly published study in Computers and Electronics in Agriculture (COMPAG) on AI-driven detection of cotton module cover damage. We trained and evaluated two-stage, one-stage, and transformer-based CNN models to identify cotton modules with damaged plastic covers during handling.",
             likes: 67,
             comments: 7,
-            avatar: "Zafar1.png"
+            avatar: "headshot-2.png"
         },
         {
-            name: "Dr. Zafar Iqbal",
+            name: "Zafar Iqbal",
             position: "Postdoctoral Associate @ University of Florida",
             time: "3 months ago",
-            content: "🌱📡 Excited to Share! I am honored to serve as a Guest Editor for a special issue of Sensors titled: \"Spectroscopy and Sensing Technologies for Smart Agriculture.\" This issue will highlight innovative sensing and spectroscopy approaches that enhance agricultural productivity, sustainability, and resilience.",
+            content: "Excited to Share! I am honored to serve as a Guest Editor for a special issue of Sensors titled: \"Spectroscopy and Sensing Technologies for Smart Agriculture.\" This issue will highlight innovative sensing and spectroscopy approaches that enhance agricultural productivity, sustainability, and resilience.",
             likes: 54,
             comments: 1,
-            avatar: "Zafar1.png"
+            avatar: "headshot-2.png"
         },
         {
-            name: "Dr. Zafar Iqbal",
+            name: "Zafar Iqbal",
             position: "Postdoctoral Associate @ University of Florida",
             time: "1 year ago",
             content: "Absolutely thrilled to announce that I have successfully completed my PhD defense! This journey has been a significant milestone in my academic and professional career. A heartfelt thanks to my advisor Dr. Bobby Hardin, committee members, colleagues, friends, and family for their unwavering support.",
             likes: 92,
             comments: 33,
-            avatar: "Zafar1.png"
-        },
-        {
-            name: "Dr. Zafar Iqbal",
-            position: "Postdoctoral Associate @ University of Florida",
-            time: "2 years ago",
-            content: "I am grateful to the National Cotton Ginners - Peary Wilemon Scholarship Foundation for acknowledging my work for the second time. It brings me great joy to share this news.",
-            likes: 19,
-            comments: 2,
-            avatar: "Zafar1.png"
+            avatar: "headshot-2.png"
         },
     ],
 
@@ -376,16 +446,16 @@ const websiteContent = {
     // AWARDS
     // ========================================
     awards: [
-        { name: "Distinguished Graduate Student Award", institution: "Texas A&M University", year: "2025", emoji: "🥇" },
-        { name: "Travel Award", institution: "Texas A&M University", year: "2022, 2023, 2024", emoji: "✈️" },
-        { name: "Dr. Brock Faulkner '04 Memorial Scholarship", institution: "Texas A&M University", year: "2023", emoji: "🎓" },
-        { name: "Peary Wilemon Scholarship", institution: "National Cotton Ginners Association", year: "2021, 2023", emoji: "💰" },
-        { name: "Graduate Scholarship", institution: "Texas A&M University", year: "2021, 2022, 2023", emoji: "📚" },
+        { name: "Distinguished Graduate Student Award", institution: "Texas A&M University", year: "2025", emoji: "🏆"},
+        { name: "Travel Award", institution: "Texas A&M University", year: "2022, 2023, 2024", emoji: "✈️"},
+        { name: "Dr. Brock Faulkner ’04 Memorial Scholarship", institution: "Texas A&M University", year: "2023", emoji: "💰" },
+        { name: "Peary Wilemon Scholarship", institution: "National Cotton Ginners Association", year: "2021, 2023", emoji: "🏆" },
+        { name: "Graduate Scholarship", institution: "Texas A&M University", year: "2021, 2022, 2023", emoji: "💰" },
         { name: "Best Presenter (3rd)", institution: "TAMU Student Research Week", year: "2022", emoji: "🥉" },
-        { name: "Best Presenter (1st)", institution: "Belt Wide Cotton Conferences", year: "2022", emoji: "🏆" },
-        { name: "Best Presenter (3rd)", institution: "China-South Korea Joint Academic Conference", year: "2019", emoji: "🥉" },
-        { name: "Best Presenter (Silver)", institution: "Japan China Korea Graduate Student Forum", year: "2018", emoji: "🥈" },
-        { name: "Best Poster Presenter", institution: "Spring conference on precision agriculture", year: "2018", emoji: "📋" }
+        { name: "Best Presenter (1st)", institution: "Beltwide Cotton Conferences", year: "2022", emoji: "🥇" },
+        { name: "Best Presenter (3rd)", institution: "China–South Korea Joint Academic Conference", year: "2019", emoji: "🥉" },
+        { name: "Best Presenter (Silver)", institution: "Japan–China–Korea Graduate Student Forum", year: "2018", emoji: "🥈" },
+        { name: "Best Poster Presenter", institution: "Spring Conference on Precision Agriculture", year: "2018", emoji: "🥇" },
     ],
 
     // ========================================
@@ -393,28 +463,78 @@ const websiteContent = {
     // ========================================
     certificates: [
         {
+            name: "PostDoctoral Associate",
+            fullTitle: "Preparing Future Faculty",
+            institution: "Texas A&M University",
+            year: "2026",
+            color: "purple",
+            image: "PFF_UF.jpg"
+        },
+        {
+            name: "DGSA",
+            fullTitle: "Membership of Sigma Xi",
+            institution: "Sigma Xi",
+            year: "2026",
+            color: "purple",
+            image: "Sigma-MZI.jpg"
+        },
+        {
+            name: "DGSA",
+            fullTitle: "Distinguished Graduate Student Award",
+            institution: "Texas A&M University",
+            year: "2025",
+            color: "purple",
+            image: "dgsa.jpg"
+        },
+        
+        {
             name: "Ph.D. Degree",
             fullTitle: "Doctor of Philosophy",
             institution: "Biological & Agricultural Engineering, Texas A&M University",
             year: "2024",
             color: "purple",
-            image: "zafar1.png"
+            image: "phd.jpg"
         },
         {
-            name: "Best Paper Award",
-            fullTitle: "Research Excellence Award",
-            institution: "Outstanding contribution to agricultural engineering research",
-            year: "",
-            color: "pink",
-            image: "cert2.jpg"
+            name: "Ph.D. Degree",
+            fullTitle: "CIRTL Associate - Fellow",
+            institution: "Texas A&M University",
+            year: "2024",
+            color: "purple",
+            image: "aff_tamu.jpg"
+        },
+        
+        {
+            name: "Ph.D. Degree",
+            fullTitle: "1st Place Student Paper",
+            institution: "Belt Wide Cotton Conference",
+            year: "2022",
+            color: "purple",
+            image: "BWCC_2022F.jpg"
         },
         {
             name: "Scholarship",
             fullTitle: "Peary Wilemon Scholarship",
-            institution: "National Cotton Ginners Foundation",
+            institution: "National Cotton Ginners Association",
             year: "2022-2023",
             color: "green",
-            image: "cert3.jpg"
+            image: "pw1.jpg"
+        },
+        {
+            name: "Best Presentation Award",
+            fullTitle: "Best Presentation Award",
+            institution: "Student Research Week, Texas A&M University",
+            year: "2022",
+            color: "pink",
+            image: "srw.jpg"
+        },
+        {
+            name: "Scholarship",
+            fullTitle: "Peary Wilemon Scholarship",
+            institution: "National Cotton Ginners Association",
+            year: "2020-2021",
+            color: "orange",
+            image: "pw2.jpg"
         },
         {
             name: "M.Sc. Degree",
@@ -422,23 +542,40 @@ const websiteContent = {
             institution: "Agricultural Machinery Engineering, Chungnam National University",
             year: "2019",
             color: "blue",
-            image: "cert4.jpg"
+            image: "msc.jpg"
         },
         {
-            name: "Honor Award",
-            fullTitle: "Distinguished Graduate Student",
-            institution: "Texas A&M University",
-            year: "2023",
-            color: "orange",
-            image: "cert5.jpg"
+            name: "M.Sc. Degree",
+            fullTitle: "Certificate of Intership",
+            institution: "Shenyang Agricultural University",
+            year: "2019",
+            color: "blue",
+            image: "Shenyang2019.jpg"
         },
+        {
+            name: "M.Sc. Degree",
+            fullTitle: "Certification of Honor",
+            institution: "University of Tsukuba",
+            year: "2018",
+            color: "blue",
+            image: "JCK2018.jpg"
+        },
+        {
+            name: "M.Sc. Degree",
+            fullTitle: "Honorary Credential",
+            institution: "Shenyang Agriculture University",
+            year: "2018",
+            color: "blue",
+            image: "CSKJC2018.jpg"
+        },
+        
         {
             name: "B.Sc. Degree",
             fullTitle: "Bachelor of Science",
-            institution: "Agricultural Engineering, HSTU, Bangladesh",
-            year: "",
+            institution: "Agricultural Engineering, Hajee Mohammad Danesh Science & Technology University",
+            year: "2017",
             color: "purple",
-            image: "cert6.jpg"
+            image: "bsc.jpg"
         },
     ],
 
@@ -480,7 +617,8 @@ const websiteContent = {
     upcomingPresentations: [
         { title: "Integration of vision transformer and hyperspectral reflectance imaging for citrus leaf disease classification", authors: "M.Z. Iqbal, T.F. Burks, S. Obellaneni", event: "Sensing for Agriculture and Food Quality and Safety XVIII, SPIE Defense + Security", location: "National Harbor, MD, USA", year: "2026" },
         { title: "Enhanced E. coli concentration level detection on multiple produce surfaces using CSI-D+ UV-C fluorescence imaging and custom deep learning architecture", authors: "T.F. Burks, M.Z. Iqbal, S. Vaddi", event: "Sensing for Agriculture and Food Quality and Safety XVIII, SPIE Defense + Security", location: "National Harbor, MD, USA", year: "2026" },
-        { title: "AI-based detection of E. coli concentration levels on diverse food-contact surfaces using UV-C fluorescence-based CSI-D+ Handheld and Yolov11 deep learning", authors: "T.F. Burks, M.Z. Iqbal, S. Vaddi", event: "Sensing for Agriculture and Food Quality and Safety XVIII, SPIE Defense + Security", location: "National Harbor, MD, USA", year: "2026" }
+        { title: "AI-based detection of E. coli concentration levels on diverse food-contact surfaces using UV-C fluorescence-based CSI-D+ Handheld and Yolov11 deep learning", authors: "T.F. Burks, M.Z. Iqbal, S. Vaddi", event: "Sensing for Agriculture and Food Quality and Safety XVIII, SPIE Defense + Security", location: "National Harbor, MD, USA", year: "2026" },
+        { title: "Vision Transformer-Based Fusion of Hyperspectral Reflectance and Fluorescence Imaging for Citrus Leaf Disease Classification", authors: "M.Z. Iqbal, T.F. Burks, S. Obellaneni", event: "ASABE Annual International Meeting", location: "Indianapolis, IN, USA", year: "2026" }
     ],
     
     posterPresentations: [
@@ -494,26 +632,50 @@ const websiteContent = {
     // ========================================
     researchInterests: [
         {
-            icon: "🌾",
-            title: "Precision Agriculture",
+            icon: "👨🏻‍🌾",
+            title: "Smart Agriculture",
             description: "Data-driven farming solutions using AI and sensor technologies for optimized crop management"
         },
         {
-            icon: "👁️",
-            title: "Computer Vision",
+            icon: "🧠",
+            title: "AI & Machine Vision",
             description: "Advanced imaging techniques for crop disease detection and quality assessment"
         },
         {
+            icon: "🤖",
+            title: "Robotics & Automation",
+            description: "Automated and robotic solutions to enhance efficiency, accuracy, and sustainability in agricultural production"
+        },
+        {
             icon: "📡",
-            title: "IoT & Sensor Networks",
+            title: "IoT & Remote Sensing",
             description: "Smart monitoring systems for real-time agricultural data collection and analysis"
         },
         {
-            icon: "🧠",
-            title: "Machine Learning",
-            description: "Deep learning models for predictive analytics in agricultural systems"
+            icon: "🦾",
+            title: "Advanced Ag Machines",
+            description: "Advanced machine design customized for crop-specific needs to improve field efficiency and performance"
         },
-      
+        {
+            icon: "📸",
+            title: "HyperSpectral Imaging",
+            description: "Advanced sensing combining hyperspectral and multispectral reflectance and fluorescence for precise crop stress and disease detection"
+        },
+        {
+            icon: "🍃",
+            title: "Controlled Plant Production",
+            description: "Cultivation of plants under regulated environmental conditions to optimize growth, yield, quality, and resource efficiency"
+        },
+        {
+            icon: "📚",
+            title: "Big Data Analytics",
+            description: "Analysis of large and diverse agricultural datasets to optimize productivity, sustainability, and resource use"
+        },
+        {
+            icon: "🌾",
+            title: "Crop Modelling",
+            description: "Use of mathematical and computational models to simulate crop growth, development, and yield under varying environmental, management, and genetic conditions"
+        },
     ],
 
     // ========================================
@@ -521,19 +683,24 @@ const websiteContent = {
     // ========================================
     memberships: [
         {
+            logo: "ΣΞ",
+            name: "Sigma Xi",
+            status: "2026-Present"
+        },
+        {
             logo: "ASABE",
             name: "American Society of Agricultural and Biological Engineers",
-            status: "Active Member"
+            status: "2018-Present"
         },
         {
-            logo: "IEEE",
-            name: "Institute of Electrical and Electronics Engineers",
-            status: "Active Member"
+            logo: "SPIE",
+            name: "Society of Photo-Optical Instrumentation Engineers",
+            status: "2024-Present"
         },
         {
-            logo: "ISPRS",
-            name: "International Society for Photogrammetry and Remote Sensing",
-            status: "Member"
+            logo: "PCRG",
+            name: "Precision Cotton Research Group",
+            status: "2020-2024"
         },
     ],
 
@@ -542,8 +709,8 @@ const websiteContent = {
     // ========================================
     services: {
         guestEditor: [
-            { journal: "Sensors: Spectroscopy and Sensing Technologies for Smart Agriculture", years: "2024 - 2025", link: "https://www.mdpi.com/journal/sensors/special_issues/spectroscopy_sensing_smart_agriculture" },
-            { journal: "AgriEngineering: Sensor-based technologies and machine learning in precision agriculture", years: "2024 - 2025", link: "https://www.mdpi.com/journal/agriengineering/special_issues/sensor_based_technologies_machine_learning" }
+            { journal: "Sensors: Spectroscopy and Sensing Technologies for Smart Agriculture", years: "2024 - 2025", link: "https://www.mdpi.com/journal/sensors/special_issues/W48M275646#" },
+            { journal: "AgriEngineering: Sensor-based technologies and machine learning in precision agriculture", years: "2024 - 2025", link: "https://www.mdpi.com/journal/agriengineering" }
         ],
         peerReviewer: {
             journals: ["ASABE", "COMPAG", "Real-Time Image Processing", "Smart Agriculture", "Sensors", "Sustainability", "Scientific Reports", "Applied Sciences", "Agronomy", "Water, Air, & Soil Pollution"],
@@ -573,6 +740,22 @@ const websiteContent = {
     // GALLERY
     // ========================================
     gallery: [
+        {
+            category: "Graduation",
+            title: "Graduation Highlights",
+            subtitle: "Cotton & Soybean Studies",
+            caption: "Field Research Activities",
+            description: "Engaged in practical field experiments, collecting and analyzing data to support crop management, AI-driven insights, and sustainable agricultural practices.",
+            icon: "fa-graduation-cap",
+            color: "green",
+            image: "", // Add image path like "field1.jpg" or leave empty for icon
+            images: [
+                { src: "MS-K.jpg", caption: "MSc at Chungnam National University, South Korea" },
+                { src: "MSK-2.jpg", caption: "MSc at Chungnam National University, South Korea" },
+                { src: "zafar-3.png", caption: "PhD at Texas A&M University, USA" }
+            ]
+        },
+        
         {
             category: "field",
             title: "Field Research",
@@ -612,7 +795,7 @@ const websiteContent = {
             color: "green",
             image: "", // Add your conference image here
             images: [
-                { src: "Zafar1.png", caption: "Conference presentation" },
+                { src: "presentation.png", caption: "Beltwide cotton Conferences" },
                 { src: "zafar2.png", caption: "Research poster session" }
             ]
         },
@@ -626,8 +809,8 @@ const websiteContent = {
             color: "blue",
             image: "",
             images: [
-                { src: "zafar-3.png", caption: "Greenhouse monitoring systems" },
-                { src: "zafar4.png", caption: "Climate control experiments" }
+                { src: "GH-K.jpg", caption: "Greenhouse monitoring systems" },
+                { src: "GHG-C.jpg", caption: "Climate control experiments" }
             ]
         },
         {
@@ -635,7 +818,7 @@ const websiteContent = {
             title: "Agricultural Robotics",
             subtitle: "Automated Transplanters",
             caption: "Robotics & Automation",
-            description: "Designing and testing automated agricultural machinery including robotic transplanters and harvesting systems.",
+            description: "Designing and testing robotic transplanter.",
             icon: "fa-robot",
             color: "orange",
             image: "",
@@ -667,30 +850,31 @@ const websiteContent = {
         {
             icon: "fa-chalkboard-user",
             title: "Instructed Courses",
-            description: "Contributed to teaching smart agriculture, robotics, automation, and sensor-based systems, providing hands-on lab and field training.",
+            description: "Taught 5 courses on smart agriculture, robotics, and automation",
             modalDescription: "Contributed to teaching smart agriculture, robotics, automation, and sensor-based systems, providing hands-on lab and field training. Engaged students through practical demonstrations and real-world applications.",
             areas: [
-                { icon: "fa-robot", text: "Applied Methods in SmartAg Systems" },
-                { icon: "fa-microchip", text: "Instrumentation in Agricultural Engineering Research" },
-                { icon: "fa-robot", text: "Applied Control for Automation and Robotics" },
-                { icon: "fa-microscope", text: "Measurement and Control of Biological Systems and Agricultural Processes" },
-                { icon: "fa-tint", text: "Reuse Water Quality Research" }
+                { icon: "fa-robot", text: "Applied Methods in SmartAg Systems (AOM5456): University of Florida" },
+                { icon: "fa-microchip", text: "Instrumentation in Agricultural Engineering Research (ABE 6031): University of Florida" },
+                { icon: "fa-robot", text: "Applied Control for Automation and Robotics (ABE 6005): University of Florida" },
+                { icon: "fa-microscope", text: "Measurement and Control of Biological Systems and Agricultural Processes (BAEN 370): Texas A&M University" },
+                { icon: "fa-tint", text: "Reuse Water Quality Research: Texas A&M University" }
             ]
         },
         {
             icon: "fa-book-open",
-            title: "Curriculum Development",
-            description: "Developed course materials for agricultural engineering programs, integrating AI and automation technologies.",
-            modalDescription: "Developed comprehensive course materials for agricultural engineering programs, integrating cutting-edge AI and automation technologies to prepare students for modern agricultural challenges.",
+            title: "Curriculum Enhancement",
+            description: "Partially developed materials for 3 agri-engineering courses",
+            modalDescription: "Contributed to the development of course materials that enhanced existing agricultural engineering courses by integrating AI and automation technologies for modern agricultural applications.",
             topics: [
-                { icon: "fa-microchip", text: "Instrumentation in Agricultural Engineering Research" },
-                { icon: "fa-microscope", text: "Measurement and Control of Biological Systems and Agricultural Processes" }
+                { icon: "fa-microchip", text: "Instrumentation in Agricultural Engineering Research (AOM5456): University of Florida" },
+                { icon: "fa-microchip", text: "Instrumentation in Agricultural Engineering Research (ABE 6031): University of Florida"},
+                { icon: "fa-microscope", text: "Measurement and Control of Biological Systems and Agricultural Processes (BAEN 370): Texas A&M University" }
             ]
         },
         {
             icon: "fa-chalkboard-teacher",
             title: "Student Mentoring",
-            description: "Mentored 14+ students in agricultural engineering and AI applications, guiding thesis research and career development.",
+            description: "Mentored 8 graduate and 6 undergraduate students",
             modalDescription: "Mentored 14+ students in agricultural engineering and AI applications, providing guidance on thesis research, career development, and professional growth in the field of smart agriculture.",
             stats: [
                 { number: "8+", label: "Grad Students Mentored" },
